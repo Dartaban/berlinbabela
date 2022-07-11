@@ -1,4 +1,10 @@
-# Berlin
+# BerlinBabel
+
+An example of how to use our (ARTABAN) version of Babel.
+
+This is a WIP.
+
+#Original README Berlin theme
 Abstraction of the Making the History of 1989 theme for Omeka Classic.
 
 Berlin is Copyright © 2018-present Corporation for Digital Scholarship, Vienna, Virginia, USA http://digitalscholar.org
