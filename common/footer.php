@@ -1,5 +1,9 @@
 </div><!-- end content -->
 
+<?php
+$babel = new BabelPlugin();
+?>
+
 <footer role="contentinfo">
 
     <div id="footer-content" class="center-div">
@@ -11,7 +15,7 @@
         <?php if ((get_theme_option('Display Footer Copyright') == 1) && $copyright = option('copyright')): ?>
         <p><?php echo $copyright; ?></p>
         <?php endif; ?>
-        <nav><?php echo public_nav_main()->setMaxDepth(0); ?></nav>
+        <nav><?php echo $babel->translateMenu(public_nav_main()->setMaxDepth(0)); ?></nav>
         <p><?php echo __('Proudly powered by <a href="http://omeka.org">Omeka</a>.'); ?></p>
 
     </div><!-- end footer-content -->

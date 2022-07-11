@@ -1876,24 +1876,28 @@ footer:after {
 footer a {
   text-decoration: none;
 }
-footer .navigation {
+footer .menu-tabs {
+  float: left;
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
   font-weight: bold;
 }
-footer .navigation li {
+footer .menu-tabs li {
   display: inline;
 }
-footer .navigation li:after {
+footer .menu-tabs li:after {
   content: " ·";
   margin: 0 10px 0 5px;
 }
-footer .navigation li:last-child {
+footer .menu-tabs li:last-child {
   margin: 0;
 }
-footer .navigation li:last-child:after {
+footer .menu-tabs li:last-child:after {
   content: " ";
   display: none;
 }
-footer .navigation a {
+footer .menu-tabs a {
   white-space: nowrap;
 }
 footer nav + p {
