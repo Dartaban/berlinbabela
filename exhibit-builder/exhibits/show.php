@@ -1,4 +1,7 @@
 <?php
+$babel = new BabelPlugin();
+?>
+<?php
 echo head(array(
     'title' => metadata('exhibit_page', 'title') . ' &middot; ' . metadata('exhibit', 'title'),
     'bodyclass' => 'exhibits show'));
@@ -27,7 +30,7 @@ echo head(array(
 </div>
 
 <nav id="exhibit-pages">
-    <h4><?php echo exhibit_builder_link_to_exhibit($exhibit); ?></h4>
+    <h4><?php echo $babel->exhibit_builder_link_to_translate($exhibit); ?></h4>
     <?php echo exhibit_builder_page_tree($exhibit, $exhibit_page); ?>
 </nav>
 <?php echo foot(); ?>
