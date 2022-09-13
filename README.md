@@ -1,8 +1,10 @@
-# BerlinBabel
+# BerlinBabela
 
 An example of how to use Babela, our (ARTABAN) version of Babel.
 
 This is a WIP.
+
+The name of the root folder should be "berlinbabela"
 
 # Original README Berlin theme
 Abstraction of the Making the History of 1989 theme for Omeka Classic.
