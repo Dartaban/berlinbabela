@@ -1,5 +1,5 @@
 <?php
-$babel = new BabelPlugin();
+$babela = new BabelaPlugin();
 ?>
 <?php
 $bodyclass = 'page simple-page';
@@ -15,7 +15,7 @@ echo head(array(
 ?>
 <div id="primary">
     <?php if (!$is_home_page): ?>
-    <p id="simple-pages-breadcrumbs"><?php echo $babel->simple_pages_display_breadcrumbs_translate(); ?></p>
+    <p id="simple-pages-breadcrumbs"><?php echo $babela->simple_pages_display_breadcrumbs_translate(); ?></p>
     <h1><?php echo metadata('simple_pages_page', 'title'); ?></h1>
     <?php endif; ?>
     <?php

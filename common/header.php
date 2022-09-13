@@ -1,5 +1,5 @@
 <?php
-$babel = new BabelPlugin();
+$babela = new BabelaPlugin();
 ?>
 <!DOCTYPE html>
 <html class="<?php echo get_theme_option('Style Sheet'); ?>" lang="<?php echo get_html_lang(); ?>">
@@ -66,7 +66,7 @@ $babel = new BabelPlugin();
 <div id="primary-nav" role="navigation">
     <?php
     //echo public_nav_main();
-    echo $babel->translateMenu(public_nav_main()->setUlClass('menu-tabs')->render());
+    echo $babela->translateMenu(public_nav_main()->setUlClass('menu-tabs')->render());
     ?>
 </div>
 
