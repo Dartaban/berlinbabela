@@ -1,6 +1,6 @@
 # BerlinBabel
 
-An example of how to use our (ARTABAN) version of Babel.
+An example of how to use Babela, our (ARTABAN) version of Babel.
 
 This is a WIP.
 
