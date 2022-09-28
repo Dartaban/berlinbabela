@@ -10,7 +10,7 @@ echo head(array(
 <h1><span class="exhibit-page"><?php echo metadata('exhibit_page', 'title'); ?></span></h1>
 
 <div id="exhibit-blocks">
-<?php exhibit_builder_render_exhibit_page(); ?>
+<?php $babela->exhibit_builder_render_exhibit_page_translate(); ?>
 </div>
 
 <div id="exhibit-page-navigation">
