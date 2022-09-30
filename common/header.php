@@ -66,7 +66,7 @@ $babela = new BabelaPlugin();
 <div id="primary-nav" role="navigation">
     <?php
     //echo public_nav_main();
-    echo $babela->translateMenu(public_nav_main()->setUlClass('menu-tabs')->render());
+    echo $babela->translateMenu(public_nav_main()->setUlClass('navigation')->render());
     ?>
 </div>
 
